@@ -1,0 +1,13 @@
+# Never version book content or generated RAG artifacts (they live in the data dir anyway)
+*.pdf
+*.epub
+*.djvu
+*.sqlite
+extracted_text/
+# Python / test caches
+__pycache__/
+.pytest_cache/
+.hypothesis/
+tests/behavioral/runs/
+# test-run evidence written by record_test_run.py
+test-evidence/
