@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "eda_sample": ["data/processed/train.csv"],
+  "development_data": ["data/processed/train.csv"],
+  "full_data": ["data/raw/full.csv"],
+  "test_data": ["data/processed/test.csv"],
+  "no_test_set_reason": null,
+  "split_status": "done",
+  "match_basenames": true,
+  "created_at": "written by ds_policy.py init; updated by make_train_test_split.py"
+}

@@ -1,0 +1,22 @@
+# Data (never commit private data, samples or test sets)
+data/
+*.csv
+*.parquet
+*.feather
+*.xlsx
+# Models and artifacts
+models/
+*.pkl
+*.joblib
+mlruns/
+# Book content / RAG artifacts (copyrighted)
+extracted_text/
+*.sqlite
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+# Bulky test logs (keep .ds-workflow policy/state/decisions under version control)
+.ds-workflow/test-evidence/*.log
